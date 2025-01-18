@@ -1,0 +1,61 @@
+.iframe{
+    display: flex;
+    flex-direction: column;
+    margin:20px ;
+    columns: auto;
+    float: right;
+}
+
+
+
+.right{
+    margin: left 110px; 
+}
+
+header {
+    color: aliceblue;
+    border: 2px solid sandybrown;
+    width: 10%;
+    height:auto;
+    position: fixed;
+    left: auto;
+    padding: 10px;
+}
+
+main {
+    margin-left:11%;
+}
+header a {
+    border-radius: 20%;
+    border: 3px sandybrown solid ;
+    box-shadow:3px gray ;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-decoration: none;
+    background-color: wheat;
+    color: black;
+    margin:top 30px, left 10px ;  
+}
+
+header a:hover {
+    background-color:gray ;
+    translate: 3s;
+    color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+.osebe {
+    margin:0 30px 570px ;
+}
+
+p a {
+    color: brown;
+}
+
+p a:hover{
+    background-color: blue;
+    border-radius: 11%;
+}
